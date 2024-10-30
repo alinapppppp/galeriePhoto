@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie de Imagini Elegantă</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>Galerie de Imagini Clasică</h1>
+    <p>Bucurați-vă de o selecție elegantă de imagini într-un cadru sofisticat.</p>
+  </header>
+
+  <section class="gallery">
+    <div class="image-container large" onclick="openModal(this)">
+      <img src="imagini/image1.jpg" alt="Imagine 1">
+    </div>
+    <div class="image-container small" onclick="openModal(this)">
+      <img src="imagini/image2.jpg" alt="Imagine 2">
+    </div>
+    <div class="image-container medium" onclick="openModal(this)">
+      <img src="imagini/image3.jpg" alt="Imagine 3">
+    </div>
+    <div class="image-container tall" onclick="openModal(this)">
+      <img src="imagini/image4.jpg" alt="Imagine 4">
+    </div>
+    <div class="image-container wide" onclick="openModal(this)">
+      <img src="imagini/image5.jpg" alt="Imagine 5">
+    </div>
+    <div class="image-container medium" onclick="openModal(this)">
+      <img src="imagini/image6.jpg" alt="Imagine 6">
+    </div>
+    <div class="image-container large" onclick="openModal(this)">
+      <img src="imagini/image7.jpg" alt="Imagine 7">
+    </div>
+    <div class="image-container small" onclick="openModal(this)">
+      <img src="imagini/image8.jpg" alt="Imagine 8">
+    </div>
+    <div class="image-container tall" onclick="openModal(this)">
+      <img src="imagini/image9.jpg" alt="Imagine 9">
+    </div>
+    <div class="image-container wide" onclick="openModal(this)">
+      <img src="imagini/image10.jpg" alt="Imagine 10">
+    </div>
+    <div class="image-container small" onclick="openModal(this)">
+      <img src="imagini/image11.jpg" alt="Imagine 11">
+    </div>
+    <div class="image-container medium" onclick="openModal(this)">
+      <img src="imagini/image12.jpg" alt="Imagine 12">
+    </div>
+  </section>
+  
+
+  <div class="modal" id="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
